@@ -41,3 +41,5 @@ state 객체를 사용하기 위해서는 부모를 상속받는 class를 생성
 - active: 마우스 클릭 
 - . = 클래스
 
+# &nbsp
+Non-breaking space : 웹페이지에서 공백을 표시하기 위한 
