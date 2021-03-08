@@ -31,6 +31,22 @@ state 객체를 사용하기 위해서는 부모를 상속받는 class를 생성
 컴포넌트에서 특정 DOM 을 선택해야 할 때
 함수형 컴포넌트에서 이를 설정 할 때 useRef 를 사용하여 설정
 
+# &nbsp
+Non-breaking space : 웹페이지에서 공백을 표시하기 위한 
+
+# 마운트/ 언마운트
+컴포넌트가 마운트 됐을 때 (처음 나타났을 때), 언마운트 됐을 때 (사라질 때)
+
+# rgba
+css syntax 
+rgba(red, green, blue, alpha) 투명도 조절 인거 같다.
+
+# 트랜지션 효과
+Dialog 가 나타나거나 사라질 때
+트랜지션 효과를 적용 할 때에는 CSS Keyframe 을 사용하며, styled-components 에서 이를 사용 할 때에는 keyframes 라는 유틸을 사용
+서서히 나타나는 fadeIn 효과
+아래에서부터 위로 올라오는 효과를 보여주는 slideUp 효과
+
 # 팁
 - 자동완성 'rfce'
 - 한줄 완성 : alt + shift + 방향키
@@ -41,9 +57,4 @@ state 객체를 사용하기 위해서는 부모를 상속받는 class를 생성
 - active: 마우스 클릭 
 - . = 클래스
 
-# &nbsp
-Non-breaking space : 웹페이지에서 공백을 표시하기 위한 
-
-# 마운트/ 언마운트
-컴포넌트가 마운트 됐을 때 (처음 나타났을 때), 언마운트 됐을 때 (사라질 때)
 
