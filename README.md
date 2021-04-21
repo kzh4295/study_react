@@ -48,6 +48,20 @@ A노드와 B노드 사이의 작업 처리 단위(transaction)를 동시에 맞�
 - 빌드(프로덕션 모드에 애플리케이션 생성시) : npm run build(public의 index.html불필요한 
 용량 
 
+font는 px단위 생략가능하지만 그외는 생략이 안되나 보다
+주석은 {/* */}로 {}가 필수
+열리는 태그  내부에서는 //주석사용 가능  예)) <hello //중얼중얼 />
+defaultProps
+props.children : 내용을 보게 해줌
+쓰이는 곳(App.js)에서 값을 정한다 = props(부모)
+쓰임 당하는 곳(Hello.js나 Wrapper.js)에서 값을 정한다 = children
+조건부 렌더링이란, 특정 조건에 따라 다른 결과물을 렌더링 하는 것
+JSX 에서 null, false, undefined 를 렌더링하게 된다면 아무것도 나타나지 않게 됩니다.
+props 값 설정을 생략하면 ={true}
+
+-  리액트에서 엘리먼트에 이벤트를 설정해줄때에는 on이벤트이름={실행하고싶은함수} 형태로 설정
+
+
 
 
 
